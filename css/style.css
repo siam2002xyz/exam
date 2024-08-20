@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.common_btn {
+  width: 319px;
+  border-radius: 10px;
+  padding: 14px 28px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.content {
+  width: 1272px;
+  margin: 0 auto;
+}
+/*----------- Common Css ------------ */
+/* MenuStart */
+.navbar {
+  width: 1320px;
+  margin: 52px auto;
+}
+.login {
+  border: 1px solid #fdbb57;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px 28px;
+}
+.singUp {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: #fdbb57;
+  padding: 10px 15px;
+}
+.main_menu {
+  padding: 24px;
+}
+.main_menu ul {
+  gap: 40px;
+}
+.main_menu ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000 !important;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  transition: 0.3s;
+}
+.main_menu ul li a:hover {
+  color: #fdbb57 !important;
+}
+/* MenuEnd */
+/* banner */
+#banner {
+  margin-top: 112px;
+}
+.banner1 button {
+  margin-left: 30px;
+}
+.banner1 h1,
+p {
+  padding-left: 30px;
+}
+.banner1 h1 {
+  font-size: 64px;
+}
+.banner1 p {
+  font-size: 22px;
+  margin: 38px auto 76px;
+}
+.banner2 img {
+  width: 627px;
+  height: 676px;
+}
+/* banner */
+/* newCollection */
+.heading {
+  text-align: center;
+  margin-top: 100px;
+}
+.heading h1 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 64px;
+}
+.heading p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.collectionTagBg {
+  background-image: url(../images/collection_1.png);
+  background-repeat: no-repeat;
+  width: 349px;
+  height: 402px;
+}
+.collectionTagBg p {
+  background-color: white;
+  width: 315px;
+  height: 57px;
+  text-align: center;
+  margin: auto auto 44px auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  border-radius: 20px;
+}
+/* ---- */
+.container1 {
+  position: relative;
+  width: 349px;
+  height: 402px;
+  background-image: url("../images/collection_1.png");
+  background-size: cover;
+  background-position: center;
+}
+.container2 {
+  position: relative;
+  width: 349px;
+  height: 402px;
+  background-image: url("../images/collection_2.png");
+  background-size: cover;
+  background-position: center;
+}
+.container3 {
+  position: relative;
+  width: 349px;
+  height: 402px;
+  background-image: url("../images/collection_3.png");
+  background-size: cover;
+  background-position: center;
+}
+.overlay-text {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 315px;
+  height: 57px;
+  background-color: white;
+  color: black;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.collectionImage {
+  margin-top: 44px;
+}
+/* newCollection */
+/* fashionSince */
+.fashion {
+  display: flex;
+  margin-top: 95px;
+  position: relative;
+}
+
+.fashionSinceImg img {
+  width: 750px;
+  height: 733px;
+}
+.fashionSinceContent {
+  margin-top: 114px;
+}
+.fashionSinceContent h1 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 64px;
+  margin-left: 35px;
+}
+.fashionSinceContent p {
+  margin-top: 63px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin-left: 5px;
+}
+.fashionReview {
+  background-color: #feecc8;
+  width: 793px;
+  height: 280px;
+  position: absolute;
+  bottom: -210px;
+  right: 0px;
+  border-radius: 20px;
+  z-index: -1;
+  display: flex;
+}
+.fashionReview div {
+  align-self: center;
+  padding-right: 43px;
+  padding-left: 43px;
+}
+.fashionReview div:nth-child(1) {
+  margin-left: 43px;
+}
+.fashionReview div:nth-child(-n + 2) {
+  border-right: 1px solid black;
+}
+.fashionReview div h1 {
+  font-size: 64px;
+}
+.fashionReview div p {
+  margin-top: 10px;
+  font-size: 24px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+}
+/* fashionSince */
+/* bestSell */
+.bestSell {
+  margin-top: 254px;
+  padding-top: 56px;
+  padding-bottom: 221px;
+  background-color: #cfa485;
+}
+.banner3 {
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+.banner4 {
+  color: white;
+}
+.banner4 h1 {
+  font-family: "Frank Ruhl Libre", serif;
+}
+.card {
+  width: 366px;
+  height: 551px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.productImage1 {
+  width: 100%;
+  height: 424px;
+  background-image: url(../images/produtc1.png);
+}
+.productImage2 {
+  width: 100%;
+  height: 424px;
+  background-image: url(../images/produtc2.png);
+}
+.productDetails {
+  padding-left: 10px;
+}
+
+.productName {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px auto;
+}
+.productPrice {
+  font-size: 16px;
+  color: #888;
+  text-decoration: line-through;
+  opacity: 0.6;
+  margin-bottom: 4px;
+  margin-right: 20px;
+}
+.offerPrice {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.price {
+  display: flex;
+}
+.bestSellImgFlex {
+  display: flex;
+  gap: 30px;
+}
+.contantfull {
+  width: 100%;
+  background-color: #cfa485;
+}
+/* bestSell */
